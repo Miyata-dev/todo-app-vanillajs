@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 1em;
+  background-color: #60728e;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.task-btn, .task-input {
+  padding: .6em .8em;
+  border-radius: .2em;
+  border: none;
+  cursor: pointer;
+}
+
+.task-btn {
+  font-weight: 700;
+}
+
+.task-btn-styles {
+  background-color: #4f5d75;
+  color: #1e242d;
+  border: 2px solid #29303c;
+  box-shadow: 0 0 12px #ffffff2d;
+}
+
+.task-input:focus {
+  outline: none;
+}
+
+.task-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.card {
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+  background-color : #f3f4f6; 
+  border : 1px solid #d1d5db; 
+  border-radius : 5px;
+  padding : 10px;
+  font-family : Arial, sans-serif;
+  color : #374151; 
+}
